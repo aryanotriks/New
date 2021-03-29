@@ -129,8 +129,8 @@ jalan("    \033[1;93m▇▇\033[1;92m                ASIF SAID           \033[1;
 jalan("    \033[1;93m▇▇\033[1;92m DON'T FUCK YOYR MOTHER BY RECODING MY COMMANDS  \033[1;93m▇▇")
 jalan("    \033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
 
-CorrectUsername = "ASIF
-CorrectPassword = "SAID
+CorrectUsername = "ASIF"
+CorrectPassword = "SAID"
 
 loop = 'true'
 while (loop == 'true'):
